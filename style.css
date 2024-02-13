@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Roboto:,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* -----------------header -----------------------*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.header-wrap {
+    justify-content: space-around;
+    align-items: self-start;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 16.34px;
+    gap: 50px;
+    color: #b0acac;
+}
+
+.p1-wrap {
+    gap: 93px;
+}
+
+.p2-wrap {
+    gap: 50px;
+}
+
+.logo,
+.p2-wrap,
+.menu {
+    margin-top: 15px;
+}
+
+.color {
+    color: #45e7f6
+}
+
+.color2 {
+    color: #c7bfbf;
+}
+
+/*----------------------main---------------- */
+
+.section1 {
+    margin-top: 32px;
+    width: full;
+    height: 600px;
+    background-color: #2F303A;
+}
+
+.section-h1 {
+    color:
+        #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.btn {
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    margin-left: 652px;
+}
+
+.button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 32px;
+    display: block;
+    margin-left: 12px;
+}
+
+.section-list {
+    display: flex;
+    margin-top: 94px;
+    margin-left: 170px;
+    gap: 30px;
+}
+
+.section-list-first-child :first-child {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    Line-height: 16.41px;
+    color: #212121;
+}
+
+.section-list-color {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 24px;
+    color: #757575;
+    /* font-size: 14px; */
+}
+
+.section-h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    margin-top: 118px;
+    color: #212121;
+}
+
+.section-img {
+    margin-top: 50px;
+    margin-left: 215px;
+    gap: 30px;
+}
+
+.background-sc {
+    margin-top: 94px;
+    background-color: #F5F4FA;
+    width: 1450px;
+    height: 648px;
+}
+
+.our-members-foto {
+    margin-top: 50px;
+    margin-left: 215px;
+    gap: 30px;
+}
+
+figure>h4 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    Line-height: 18.75px;
+    text-align: center;
+    color: #212121;
+}
+
+figure>p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    Line-height: 18.75px;
+    text-align: center;
+    color: #757575;
+}
+
+/* ----------------------------------footer--------------------------------------------------- */
+.block {
+    display: block;
+}
+
+.foot {
+    background-color: #2F303A;
+    width: 1450px;
+    height: 252px;
+}
+
+.logo2 {
+    padding-top: 60px;
+    margin-left: 215px;
+}
+
+.menu2 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.color3 {
+    color: #c7bfbf;
+}
