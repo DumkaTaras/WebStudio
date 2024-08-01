@@ -17,13 +17,17 @@
         height: 50px;
         background-color: $btn-color;
         margin-left: 642px;
-        .button {
-            color:$btn-text-color;
+        @mixin button($display,$font-family){
             font-size: 16px;
             font-weight: 700;
             line-height: 30px;
             padding: 10px 32px;
-            display: block;
+            color: $btn-text-color;
+        }
+        .button {
+           @include button(block,$font-family);
+            border: 1px solid grey;
+            
         }
     }
     .modal{
@@ -143,10 +147,36 @@
         margin-left: 170px;
         gap: 30px;
     }
-    .our-members-foto>figure>img {
+    %img{
+        width: 270px;
+        height: 260px;
+    }
+    .img1{
+        @extend %img;
         box-shadow: 5px 3px 3px 0px rgb(112, 112, 173);
         &:hover{
             box-shadow: 10px 5px 5px 0px rgb(112, 112, 173);
+        }
+    }
+    .img2{
+        @extend %img;
+        box-shadow: 5px 3px 3px 0px rgb(112, 173, 160);
+        &:hover{
+            box-shadow: 10px 5px 5px 0px rgb(112, 173, 167);
+        }
+    }
+    .img3{
+        @extend %img;
+        box-shadow: 5px 3px 3px 0px rgb(183, 40, 186);
+        &:hover{
+            box-shadow: 10px 5px 5px 0px rgb(197, 37, 181);
+        }
+    }
+    .img4{
+        @extend %img;
+        box-shadow: 5px 3px 3px 0px rgb(4, 213, 50);
+        &:hover{
+            box-shadow: 10px 5px 5px 0px rgb(8, 185, 25);
         }
     }
     figure>h4 {
@@ -158,7 +188,7 @@
         color:$text-color;
     }
     
-    figure>p {
+    %p {
         font-family: $font-family;
         font-weight: 400;
         font-size: 16px;
@@ -167,5 +197,20 @@
         color:$email-color;
         opacity: 250%;
     }
+    .p1{
+        @extend %p;
+        color: $email-color;
+    }
+    .p2{
+        @extend %p;
+        color: aquamarine;
+    }
+    .p3{
+        @extend %p;
+        color: rgb(200, 127, 255);
+    }
+    .p4{
+        @extend %p;
+        color: rgb(9, 220, 107);
+    }
 }
-//4
