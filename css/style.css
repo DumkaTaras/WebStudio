@@ -108,6 +108,32 @@ a {
     transform: translateX(-40px);
   }
 }
+.block {
+  display: block;
+}
+
+.foot {
+  background-color: #2F303A;
+  width: 100%;
+  height: 252px;
+}
+.foot .logo2 {
+  padding-top: 60px;
+  margin-left: 215px;
+}
+.foot .logo2 .menu2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 50px;
+  color: #FFFFFF;
+}
+.foot .logo2 .menu2 .color3 {
+  color: #c7bfbf;
+}
+
 .section1 {
   margin-top: 32px;
   width: full;
@@ -130,12 +156,12 @@ a {
   margin-left: 642px;
 }
 .section1 .btn .button {
-  color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   padding: 10px 32px;
-  display: block;
+  color: #FFFFFF;
+  border: 1px solid grey;
 }
 .section1 .modal {
   display: none;
@@ -249,11 +275,33 @@ a {
   margin-left: 170px;
   gap: 30px;
 }
-.background-sc .our-members-foto > figure > img {
+.background-sc .img4, .background-sc .img3, .background-sc .img2, .background-sc .img1 {
+  width: 270px;
+  height: 260px;
+}
+.background-sc .img1 {
   box-shadow: 5px 3px 3px 0px rgb(112, 112, 173);
 }
-.background-sc .our-members-foto > figure > img:hover {
+.background-sc .img1:hover {
   box-shadow: 10px 5px 5px 0px rgb(112, 112, 173);
+}
+.background-sc .img2 {
+  box-shadow: 5px 3px 3px 0px rgb(112, 173, 160);
+}
+.background-sc .img2:hover {
+  box-shadow: 10px 5px 5px 0px rgb(112, 173, 167);
+}
+.background-sc .img3 {
+  box-shadow: 5px 3px 3px 0px rgb(183, 40, 186);
+}
+.background-sc .img3:hover {
+  box-shadow: 10px 5px 5px 0px rgb(197, 37, 181);
+}
+.background-sc .img4 {
+  box-shadow: 5px 3px 3px 0px rgb(4, 213, 50);
+}
+.background-sc .img4:hover {
+  box-shadow: 10px 5px 5px 0px rgb(8, 185, 25);
 }
 .background-sc figure > h4 {
   font-family: "Roboto";
@@ -263,7 +311,7 @@ a {
   text-align: center;
   color: #000;
 }
-.background-sc figure > p {
+.background-sc .p4, .background-sc .p3, .background-sc .p2, .background-sc .p1 {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -272,29 +320,15 @@ a {
   color: #c7bfbf;
   opacity: 250%;
 }
-
-.block {
-  display: block;
-}
-
-.foot {
-  background-color: #2F303A;
-  width: 100%;
-  height: 252px;
-}
-.foot .logo2 {
-  padding-top: 60px;
-  margin-left: 215px;
-}
-.foot .logo2 .menu2 {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-top: 50px;
-  color: #FFFFFF;
-}
-.foot .logo2 .menu2 .color3 {
+.background-sc .p1 {
   color: #c7bfbf;
+}
+.background-sc .p2 {
+  color: aquamarine;
+}
+.background-sc .p3 {
+  color: rgb(200, 127, 255);
+}
+.background-sc .p4 {
+  color: rgb(9, 220, 107);
 }
