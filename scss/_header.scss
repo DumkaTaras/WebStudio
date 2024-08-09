@@ -1,0 +1,106 @@
+.header-wrap {
+    justify-content: space-around;
+    align-items: self-start;
+    .p1-wrap {
+        gap: 93px;
+        
+        }
+    }
+    .menu {
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.34px;
+        gap: 50px;
+        color: #b0acac;
+        &-card:nth-child(1):hover{
+            animation-name: complex-animation;
+            animation-duration: 2.5s;
+            animation-iteration-count:infinite;
+        }
+        &-card:nth-child(2):hover{
+            animation-name: identifier;
+            animation-duration: 2.5s;
+            animation-iteration-count:infinite;
+        }
+        &-card:nth-child(3):hover{
+            animation-name:  animation-translate;                ;
+            animation-duration: 2.5s;
+            animation-iteration-count:infinite;
+        }
+        .color {
+            color: $text-color2
+        }
+    }
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.p2-wrap {
+    gap: 50px;
+    
+    .color {
+       color: $text-color2;
+    }
+    .color2 {
+        color: $email-color;
+    }
+}
+
+.logo,
+.p2-wrap,
+.menu {
+    margin-top: 15px;
+}
+
+@keyframes complex-animation {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes identifier {
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+
+  @keyframes animation-translate{
+    10%{
+        transform: translateX(20px);
+    }
+    30%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(-40px);
+    }
+    60%{
+        transform: scale(2.2);
+    }
+    70%{
+        transform: translateX(40px);
+    }
+    80%{
+        background-color:rgba(243, 5, 5, 0.525);
+    }
+    100%{
+        transform: translateX(-40px);
+    }
+  }
